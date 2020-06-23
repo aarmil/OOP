@@ -13,5 +13,9 @@ public class Main {
         System.out.println(volume1);
         System.out.println(volume2);
 
+        Box box = new Box();
+        box.setDimens(15, 15, 15);
+        System.out.println(box.Volume());
+
     }
 }
