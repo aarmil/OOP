@@ -1,3 +1,7 @@
+package box;
+
+import box.Box;
+
 public class BoxHomework {
     public static void main(String[] args) {
 

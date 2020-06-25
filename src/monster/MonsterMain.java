@@ -1,3 +1,5 @@
+package monster;
+
 public class MonsterMain {
     public static void main(String[] args) {
 

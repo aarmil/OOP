@@ -1,3 +1,5 @@
+package employee;
+
 public class EmployeeMain {
     public static void main(String[] args) {
         Employee employee = new Employee("Michael", "Head of Department", 33400);

@@ -1,5 +1,7 @@
+package test;
+
 public class Test {
-    int square(int i) {
+    public int square(int i) {
         return i * i;
     }
 }

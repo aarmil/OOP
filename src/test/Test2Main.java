@@ -1,3 +1,7 @@
+package test;
+
+import test.Test2;
+
 public class Test2Main {
     public static void main(String[] args) {
         int result = Test2.multiple(5);

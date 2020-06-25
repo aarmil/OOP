@@ -1,3 +1,7 @@
+package main;
+
+import box.Box;
+
 public class Main {
     public static void main(String[] args) {
         //Trying overload
@@ -28,6 +32,7 @@ public class Main {
         Box box5 = new Box(box3);
         //Boxes has same parameters but they are different boxes
         box3.setDimens(20,20,20);
+        box3.showDimens();
         int result2 = box5.compare(box3);
         switch (result2) {
             case -1:

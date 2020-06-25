@@ -1,9 +1,11 @@
-public class Monster {
-    int nEyes;
-    int nHands;
-    int nLegs;
+package monster;
 
-    //Monster is Human
+public class Monster {
+    private int nEyes;
+    private int nHands;
+    private int nLegs;
+
+    //Monster is human
     public Monster() {
         nEyes = 2;
         nHands = 2;
@@ -28,19 +30,19 @@ public class Monster {
         this.nLegs = nLegs;
     }
 
-    String monsterInfo() {
+    public String monsterInfo() {
         return "It has " + nEyes + " eyes, it has " + nHands + " hands, it has " + nLegs + " legs. Fear him!!!";
     }
 
-    void showMonsterInfo() {
+    public void showMonsterInfo() {
         System.out.println(monsterInfo());
     }
 
-    void voice() {
+    public void voice() {
         System.out.println("Voice");
     }
 
-    void voice(int i) {
+    public void voice(int i) {
         String result = "";
         for (int j = 0; j < i; j++) {
             result += "Voice";
@@ -53,7 +55,7 @@ public class Monster {
         System.out.println(result);
     }
 
-    void voice(int i, String word) {
+    public void voice(int i, String word) {
         String result = "";
         for (int j = 0; j < i; j++) {
             result += word;
@@ -64,5 +66,17 @@ public class Monster {
             }
         }
         System.out.println(result);
+    }
+
+    public int getnEyes() {
+        return nEyes;
+    }
+
+    public int getnHands() {
+        return nHands;
+    }
+
+    public int getnLegs() {
+        return nLegs;
     }
 }

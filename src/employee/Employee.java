@@ -1,7 +1,9 @@
+package employee;
+
 public class Employee {
-    String name;
-    String position;
-    double wage;
+    private String name;
+    private String position;
+    private double wage;
 
     public Employee(String name, String position, double wage) {
         this.name = name;
@@ -9,7 +11,7 @@ public class Employee {
         this.wage = wage;
     }
 
-    String info(int i) {
+    public String info(int i) {
         return ("Employee - " + name + ".\nPosition - " + position + ".\nWage - " + wage +
                 ".\nWage for the last " + i + " months - " + wage * i + ".");
     }

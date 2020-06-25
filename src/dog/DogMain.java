@@ -1,13 +1,15 @@
+package dog;
+
 public class DogMain {
     public static void main(String[] args) {
         Dog dog1 = new Dog();
         Dog dog2 = new Dog();
-        dog1.name = "Spot";
-        dog1.breed = "Sheep dog";
-        dog1.speed = 4;
-        dog2.name = "Lex";
-        dog2.breed = "Dalmatian";
-        dog2.speed = 6;
+        dog1.setName("Spot");
+        dog1.setBreed("Sheep dog");
+        dog1.setSpeed(4);
+        dog2.setName("Lex");
+        dog2.setBreed("Dalmatian");
+        dog2.setSpeed(6);
 
         //Commands to run
         dog1.run();
